@@ -1,0 +1,118 @@
+/* fontstyle */
+@font-face {
+    font-family: "UnileverShilling" ;
+    src: url('resources/Unilever_Shilling.ttf');
+}
+
+@font-face {
+    font-family: "UnileverShillingb" ;
+    src: url('resources/Unilever_Shilling_Bold.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+/* Head */
+
+.t {
+    padding: 50px;
+    font-size: 45px;
+    color:darkblue;
+    text-align: left;
+    font-family: 'UnileverShilling', sans-serif;
+}
+
+.navigations_mini
+{
+    padding: 10px;
+    background-color: darkblue;
+    text-align: left;
+    font-family: 'UnileverShillingb', sans-serif;
+}
+
+li {
+    
+    list-style: none;
+    display: inline-block;
+}
+
+li a{
+    color:white; 
+    font-size: 30px; 
+    margin-right: 25px;
+}
+
+a:hover
+{
+    color:#ffff00;
+}
+
+/* Content */
+
+.containerp {
+    background-size: cover;
+    background-color:#d6d6ff;
+    padding: 100px;
+    background-position: center;
+    margin-top:  20px;
+}
+
+.i2 {
+    padding: 20px;
+    font-family: 'UnileverShillingb', sans-serif;
+    text-align: left;
+    color:blue;
+    font-size: 120px;
+}
+
+.i3 {
+    padding: 0px;
+    font-family: 'UnileverShillingb', sans-serif;
+    text-align: left;
+    color:blue;
+    font-size: 50px;
+}
+
+hr {
+    height: 4px;
+    background-color:blue;
+}
+
+.gallerybox {
+    display: contents;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gallerybox img {
+    width: 400px;
+    height: 300px;
+    border-radius: 13px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+}
+
+
+
+
+
+
+
+
+
+
+
+.end {
+    color: yellow;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'UnileverShilling', sans-serif;
+    background-size: cover;
+    background-color:darkblue;
+    margin: 0;
+}
